@@ -1,0 +1,82 @@
+.panel{
+	position: absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:500px;
+	border-top:1PX solid #ddd;
+	background-color: rgba(0,0,0,0.7);
+	transform:translate3d(0,100%,0);
+	transition:transform ease 300ms;
+	transform-origin:0 0;
+	z-index:999;
+}
+.mengceng{
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	left: 0;
+	top:-300px;
+	z-index: 88;
+}
+.controls{
+	display: block;
+	width:100%;
+	height:80px;
+	line-height: 80px;
+	border-bottom:1PX solid #ddd;
+	color:#238cf3;
+	font-size:36px;
+    font-weight: 700;
+    clear:both;
+    padding:0 32px;
+    box-sizing:border-box;
+}
+
+.cancel-w{
+	float:left;
+}
+.sure-w{
+	float:right;
+}
+.wrap{
+	font-size: 0;
+	color:#fff;
+	position: relative;
+	height:100%;
+	overflow: hidden;
+}
+.col-item{
+	width:50%;
+	display: inline-block;
+	font-size: 36px;
+	text-align: center;
+	position: relative;
+	height:100%;
+	transform:translate3d(0,0,0);
+
+}
+.col-ul-l{
+	position: absolute;
+	transform:translate3d(0,180px,0);
+	width:100%;
+	/*transition:transform ease-out 300ms;*/
+}
+.col-ul-r{
+	position: absolute;
+	transform:translate3d(0,180px,0);
+	width:100%;
+	/*transition:transform ease-out 300ms;*/
+}
+.col-li{
+	height:60px;
+	line-height: 60px;
+}
+.highlight{
+	position: absolute;
+	top:180px;
+	border-top:1PX solid #ddd;
+	border-bottom:1PX solid #ddd;
+	height:60px;
+	width:100%;
+}
